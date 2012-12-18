@@ -1,0 +1,6 @@
+<h1>Reddit#GoRead</h1>
+<p>Find me in app/views/reddit/GoRead.html.erb</p>
+<%= @nextBatch %>
+<% @comments.each_with_index do |c, index| %> 
+	<%= index %>  is:  <%= c["data"]["body"] %> <br/><br/>
+<% end %>

@@ -1,4 +1,6 @@
 TwssBot::Application.routes.draw do
+    match "/reddit" => "reddit#GoRead", :as => "reddit"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
